@@ -1,0 +1,263 @@
+.banner-voluntarios {
+    background-image: url("../img/banner-voluntarios.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 100px;
+    padding-top: 120px;
+    margin-bottom: 100px;
+}
+
+.banner-voluntarios h1 {
+    color: #005B56;
+}
+
+/*VOLUNTARIOS*/
+.ajustadora {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.boxgrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 50px 50px;
+    width: 950px;
+}
+
+/*CARD*/
+.card {
+    position: relative;
+    width: 300px;
+    height: 320px;
+    transform-style: preserve-3d;
+}
+
+.card h2 {
+    font-size: 23px;
+    color: white;
+    font-family: cursive;
+}
+.card p{
+    margin-bottom: 15px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.card img{
+    height:80px;
+    width: 80px;
+    border-radius: 100px;
+    margin:25px 0px 10px 0px;
+}
+
+.card .face {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    backface-visibility: hidden;
+    transition: 1s ease-in-out;
+    border-radius: 20px;
+}
+
+/*PARTE DA FRENTE*/
+.card .face.front {
+    background-color:#B58DA4; 
+    border: 3px solid #005b5657;
+    margin-bottom: 60px;
+    box-shadow: rgba(149, 157, 165, 0.806) 0px 8px 24px;
+}
+
+.card:hover .face.front {
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.face.front h2 {
+    margin: 5px;
+}
+.face.front p {
+    font-size: 16px;
+    margin: 5px;
+    color:#ffffff ;
+}
+
+.face.front .descricao-volun p {
+    font-size: 16px;
+    margin: 5px;
+    color:#5E5858 ;
+}
+
+
+/*PARTE DE TRÁS*/
+.card .face.back {
+    background-color:rgb(90, 68, 80); 
+    margin-bottom: 60px;
+    transform: perspective(500px) rotateY(180deg);
+    border: 3px solid #005b5657;
+    box-shadow: rgba(90, 68, 80, 0.806) 0px 8px 24px;
+}
+
+.card:hover .face.back {
+    transform: perspective(500px) rotateY(360deg);
+}
+
+.face.back h2 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size:23px ;
+}
+
+.face.back p {
+    line-height:normal;
+    text-align: center;
+    width: 200px;
+    height: 144px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size:14px;
+}
+
+.back .email {
+    gap:0px;
+}
+
+.face.back.email img{
+    margin-top: 7px;
+}
+
+.face.back .redes {
+    margin-top: 20px;
+}
+
+
+/*DESCRICAO*/
+.descricao-volun {
+    background-color:#fefdfe;
+    height:130px;
+    width:100%;
+    display: flex;
+    margin-top:10px;
+    flex-direction: column;
+    border-left:1px solid gray ;
+    border-right:1px solid gray ;
+    border-radius: 20px;
+    border-top-left-radius:3px;
+    border-top-right-radius: 3px;
+}
+.face.back .descricao-volun p {
+    color:#5E5858;
+    font-size: 16px;
+    margin: 5px 0px 0px 0px;
+    height:31px;
+}
+
+.descricao-volun img {
+    height:15px;
+    width: 15px;
+    margin:9px 0px 0px 0px;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.redes img {
+    height: 25px;
+    width: 25px;
+    margin: 0;
+}
+
+.redes input {
+    border-radius: 7px;
+    height: 30px;
+    width:80px ;
+    background-color: gray;
+    color: rgb(240, 240, 240);
+    border: 0px;
+    cursor: pointer;
+}
+
+/*RESPONSIVO*/
+@media (max-width:1100px){
+    /*BANNER*/
+    .voluntarios-banner {
+        margin-bottom: 70px;
+    }
+    /*CARD*/
+    .card {
+        position: relative;
+        width: 280px;
+        height: 320px;
+        transform-style: preserve-3d;
+    }
+
+    .ajustadora {
+        margin-bottom: 120px;
+    }
+    .boxgrid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px 50px;
+        width: 550px;
+    }
+}
+
+@media (max-width:750px) {
+    /*BANNER*/
+    .voluntarios-banner h1{
+        font-size: 50px;
+    }
+    .voluntarios-banner {
+        margin-bottom:40px;
+    }
+}
+
+@media (max-width:600px) {
+    /*BANNER*/
+    .voluntarios-banner h1{
+        font-size: 45px;
+    }
+    .voluntarios-banner {
+        margin-bottom: 10px;
+    }
+    /*CARD*/
+    .boxgrid {
+        display: flex;
+        flex-direction: column;
+        width: 550px;
+        justify-content: center;
+        align-items: center;
+    }}
+
+@media (max-width:500px) {
+    /*BANNER*/
+    .voluntarios-banner h1{
+        font-size: 35px;
+    }
+}
+
+@media (max-width:400px) {
+    /*BANNER*/
+    .voluntarios-banner h1{
+        font-size: 30px;
+    }
+}

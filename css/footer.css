@@ -1,0 +1,77 @@
+.footer {
+    background-color: #005B56;
+    color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;;
+}
+
+.conteudo-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.conteudo-footer li {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.footer-titulo h3 {
+    font-size: 30px !important;
+}
+
+.footer h3 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.footer P {
+    font-size: 18px;
+}
+
+.titulo-footer {
+    margin-bottom: 20px;
+}
+
+.footer-icon {
+    display: flex;
+    gap: 25px;
+}
+
+.footer-copy {
+    text-align: center;
+    max-width: 100%;
+    background-color: #d9c9d858;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffffff;
+}
+
+.footer-copy p {
+    font-size: 20px;
+}
+
+.footer a:hover {
+  color: #b883bc;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+@media (max-width: 1000px) {
+    .conteudo-footer {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer-instituto h3 {
+        font-size: 20px !important;
+    }
+}
+
+@media (max-width: 650px) {
+    .conteudo-footer {
+        grid-template-columns: 1fr;
+    }
+}

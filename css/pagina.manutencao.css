@@ -1,0 +1,43 @@
+.manutencao {
+    background: #eeeff2;
+    display: grid;
+    justify-items: center;
+}
+
+.manutencao img {
+    max-width: 1000px;
+    padding-left: 100px;
+}
+
+.manutencao h1 {
+    color: rgb(11, 110, 186);
+    font-size: 60px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+/************** MOBILE **************/
+@media (max-width: 1200px) {
+    .manutencao img {
+        max-width: 600px;
+        padding-left: 70px;
+    }
+}
+
+@media (max-width: 670px) {
+    .manutencao h1 {
+        font-size: 40px;
+    }
+
+    .manutencao img {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    .manutencao img {
+        max-width: 250px;
+        padding-left: 30px;
+    }
+}

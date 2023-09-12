@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="IBA - Instituto Berna Almeida" />
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+
+    <!-- STYLE -->
+    <link rel="preload" href="./css/" as="style" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair:ital,wght@1,300&family=Pontano+Sans:wght@400;500;600&family=Source+Sans+Pro:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ANIMAÇÃO -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- SCRIPT -->
+    <script>
+      document.documentElement.className += " js";
+    </script>
+
+    <title>IBA - Instituto Berna Almeida</title>
+  </head>
+
+  <body>
+    <!-- MENU -->
+    <header class="header-bg">
+      <div class="header">
+        <div>
+          <a href="index.html"
+            ><img
+              src="../img/logotipo Berna Almeida Horizontal (1).png"
+              alt="Logo"
+              width="120"
+              height="50"
+            />
+          </a>
+        </div>
+
+        <nav class="nav-list" data-menu="suave" aria-label="primario">
+          <ul id="menu" data-menu="list" class="header-menu">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="./pages/orientacoes.html" class="nav-link">Orientações</a>
+            </li>
+            <li class="nav-item">
+              <a href="./pages/por_berna_almeida.html" class="nav-link">Por Berna Almeida</a>
+            </li>
+            <li class="nav-item">
+              <a href="./pages/voluntarios.html" class="nav-link">Voluntários</a>
+            </li>
+            <li class="nav-item">
+              <a href="./pages/doe.html" class="nav-link">Doe</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="botao contato-botao">
+          <a href="#contato">Contato</a>
+        </button>
+        
+        <div class="mobile-menu-icon">
+          <!-- ICON MENU MOBILE -->
+          <button onclick="menuShow()">
+            <img class="icon" src="./img/menu_white_36dp.svg" alt="" />
+          </button>
+        </div>
+
+        <div class="mobile-menu">
+          <!-- MENU MOBILE -->
+          <ul class="mobile-menu-interno">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="./pages/orientacoes.html" class="nav-link">Orientações</a>
+            </li>
+            <li class="nav-item">
+              <a href="./pages/pagina-manutencao.html" class="nav-link">Por Berna Almeida</a>
+            </li>
+            <li class="nav-item">
+              <a href="./pages/voluntarios.html" class="nav-link">Voluntários</a>
+            </li>
+            <li class="nav-item">
+              <a href="./pages/doe.html" class="nav-link">Doe</a>
+            </li>
+            <li class="nav-item"><button class="botao">Contato</button></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- INTRODUÇÃO -->
+    <main class="introducao-bg introducao-anima">
+      <div class="introducao container">
+        <div class="introducao-conteudo">
+          <h1>Instituto Berna Almeida</h1>
+          <p>Somos Pessoas Cuidando de Pessoas.</p>
+        </div>
+      </div>
+    </main>
+
+    <!-- MISSÃO -->
+    <section class="missao container">
+      <div class="missao-conteudo animacao-missao">
+        <h2>Nossa Missão</h2>
+
+        <p>
+          Somos uma família fazendo a mesma travessia, procuramos nos
+          solidarizar para que o cansaço, o desânimo não nos alcance neste árduo
+          caminho, onde todos os dias nos deparamos com novas lições que surgem
+          para o nosso aprendizado e crescimento espiritual. Por mais que não
+          estejamos entendendo a razão para tanto, nós sabemos que é com o
+          cajado da Fé que conseguiremos vencer esta batalha. E acreditamos
+          porque todos os dias, a Esperança nos diz que a cura está vindo ao
+          nosso encontro.
+        </p>
+
+        <p>
+          Proporcionar ao Cuidador Familiar conhecimento sobre as Doenças
+          degenerativas, Dar assistência e apoio, como também lhes proporcionar
+          uma visão holística sobre e perante o percurso desta travessia neste
+          deserto árido.
+        </p>
+
+        <span class="span-texto-inicial">
+          <div class="inicial-frase">
+            <p>
+              <span>O</span> Instituto do IBA – Instituto Berna Almeida é
+              proporcional ao Cuidador Familiar toda a base necessária para
+              seguir em frente e conscientizá-lo que seu papel é de cuidar e não
+              de curar. "Nada poderá deter a Mão que Deus preparou para
+              abençoar."
+            </p>
+          </div>
+        </span>
+      </div>
+    </section>
+
+    <!-- INTRODUÇÃO2 -->
+    <section class="introducao2 introducao-2 container">
+      <div class="texto-introducao-pg animacao">
+        <h2>Doenças Degenerativas</h2>
+        <p>
+          São aquelas que causam lesões nas células, podendo afetar a visão, os
+          ossos, os tecidos, os vasos sanguíneos, entre outros. Essas doenças
+          são crônicas e não são transmitidas, afetando as células do corpo de
+          forma continua, irreversível e com os sintomas de piora progressiva,
+          limitando as funções básicas do corpo, como o movimento, a respiração
+          e o raciocínio, levando em alguns casos à morte.
+        </p>
+        <p class="texto-doenças">
+          As causas do surgimento de doenças degenerativas são relacionadas com
+          aspectos genéticos, fatores ambientais, má alimentação e sedentarismo.
+          Atualmente, não há cura e nem tratamento específico para essas
+          doenças. O uso de medicamentos alivia os sintomas da doença e
+          proporciona melhores condições de vida aos doentes. Com o crescimento
+          da idade média da população, as doenças degenerativas – mais comuns
+          nos idosos – têm aumentado na sociedade.
+        </p>
+
+        <button class="botao2">
+          <a target="_blank" href="./pages/orientacoes.html">Ver Mais</a>
+        </button>
+      </div>
+
+      <div class="pg-img">
+        <img src="./img/pexels-lina-kivaka-2253911.jpg" alt="Dois idosos" />
+      </div>
+    </section>
+
+    <!-- POSTS DOENÇAS -->
+    <article class="container lista-doenças animacao-h">
+      <p>Veja nossos posts sobre.</p>
+
+      <h2 class="container">Principais Doenças Degenerativas</h2>
+
+      <ul class="li-doenças conteudo-doencas">
+        <li>
+          <img class="img-lista" src="./img/demencia1.jpg" alt="" />
+          <h3 class="titulo-lista">Demências</h3>
+          <p>
+            É o declínio geral das habilidades mentais, como memória, linguagem
+            e raciocínio que persiste por toda a vida e pode interferir com as
+            atividades...
+          </p>
+          <a target="_blank" href="./pages" class="a-lista"
+            ><button class="botao2 botão-lista">
+              <a href="./pages/doenças-degenerativas/demencias.html">Ver Mais</a>
+            </button></a
+          >
+        </li>
+        <li class="espaco-top">
+          <img class="img-lista" src="./img/degluticao1.jpg" alt="" />
+          <h3 class="titulo-lista">Deglutição</h3>
+          <p>
+            A dificuldade para engolir, cientificamente chamada disfagia ou
+            deglutição prejudicada, pode ser causada tanto por alterações
+            nervosas quanto por..
+          </p>
+          <a target="_blank" href="./pages" class="a-lista"
+            ><button class="botao botão-lista">
+              <a href="./pages/doenças-degenerativas/deglutinacao.html">Ver Mais</a>
+            </button></a
+          >
+        </li>
+        <li>
+          <img class="img-lista" src="./img/pneumonia1.jpg" alt="" />
+          <h3 class="titulo-lista">Pneumonia</h3>
+          <p>
+            A doença é causada pela penetração de bactérias, fungos ou outros
+            agentes irritantes nos pulmões, provocando infecção na região dos
+            alvéolos ou entre...
+          </p>
+          <a target="_blank" href="./pages" class="a-lista"
+            ><button class="botao2 botão-lista">
+              <a href="./pages/doenças-degenerativas/pneumonia.html">Ver Mais</a>
+            </button></a
+          >
+        </li>
+        <li class="espaco-top">
+          <img class="img-lista" src="./img/parkinson1.jpg" alt="" />
+          <h3 class="titulo-lista">Parkinson</h3>
+          <p>
+            A doença de Parkinson (DP) é uma doença neurológica crônica e
+            progressiva descrita por James Parkinson em 1817. De acordo com
+            vários estudos, mundialmente 1 em cada 100...
+          </p>
+          <a target="_blank" href="./pages" class="a-lista"
+            ><button class="botao botão-lista">
+              <a href="./pages/doenças-degenerativas/doencaDeParkinson.html">Ver Mais</a>
+            </button></a
+          >
+        </li>
+      </ul>
+
+      <div class="doencas-chamada">
+        <a target="_blank" href="./pages/orientacoes.html"><p>Veja Todos Artigos →</p></a>
+      </div>
+    </article>
+
+    <!-- BANNER -->
+    <section class="sessao-banner">
+      <div class="banner container">
+        <div class="pg-img">
+          <img src="./img/pexels-marcus-aurelius-6787203.jpg" alt="Yoga" />
+        </div>
+
+        <div class="texto-introducao-banner animacao">
+          <span>- solidariedade -</span>
+
+          <h3>Instituto Berna Almeida</h3>
+          <p>
+            "Nosso Instituto é uma Ong onde damos assistência a pessoas com
+            doenças degenerativas, alzheimer, parkinson, dft, demências em geral
+            Nosso trabalho é ostensivo com artigos sobre a doença, como também
+            captação de doações."
+          </p>
+
+          <span class="span-base">- Doenças Degenerativas -</span>
+        </div>
+      </div>
+    </section>
+
+    <!--PROJETOS -->
+    <article class="sessao-projetos container animacao-h">
+      <div class="p-projetos">
+        <p>- Mudandos Vidas -</p>
+        <h2 class="container">Conheça Nossos Projetos.</h2>
+        <p>
+          Veja como fazer o mundo um lugar melhor, o mundo pode sempre ser um
+          lugar melhor se nós nos unirmos para isso!
+        </p>
+      </div>
+
+      <div class="lista-projetos conteudo-projeto">
+        <div class="conteudo-projetos">
+          <div class="titulo-projetos">
+            <img class="img-lista" src="./img/pss1.png" alt="" />
+            <h3 class="titulo-lista">Semêntes Solidarias</h3>
+          </div>
+          <p>
+            O projeto Sementes Solidarias é um projeto que recebe doações de tudo aquilo que possa ajudar a todos os que necessitam de ajuda. Contamos com todos os que desejam contribuir com este trabalho...
+          </p>
+          <a
+            target="_blank"
+            href="./pages/sementes-solidarias.html"
+            class="a-lista"
+            >Veja Mais →</a
+          >
+        </div>
+
+        <div class="conteudo-projetos">
+          <div class="titulo-projetos">
+            <img class="img-lista" src="./img/cqc1.png" alt="" />
+            <h3 class="titulo-lista">Cartas q Curam</h3>
+          </div>
+          <p>
+            Projeto Cartas q Curam é um projeto onde enviamos cartas de motivação e de gratidão, para as pessoas que estão com transtornos psíquicos (depressão, síndrome do pânico, ansiedade, etc.) como também...
+          </p>
+          <a
+            target="_blank"
+            href="https://cqccartasqcuram.com.br/"
+            class="a-lista"
+            >Veja Mais →</a
+          >
+        </div>
+
+        <div class="conteudo-projetos">
+          <div class="titulo-projetos">
+            <img class="img-lista" src="./img/pcc1.png" alt="" />
+            <h3 class="titulo-lista">Conte Comigo</h3>
+          </div>
+          <p>
+            Você tem algum ente querido com qualquer tipo de doença degenerativa? Quem ajuda a cuidar? A família? Quem é da família? Quantas horas por dia você descansa? Quem reveza contigo?...
+          </p>
+          <a
+            target="_blank"
+            href="./pages/conte-comigo.html"
+            class="a-lista"
+            >Veja Mais →</a
+          >
+        </div>
+      </div>
+    </article>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="conteudo-footer container" id="contato">
+        <div class="footer-titulo">
+          <h3>Instituto Berna Almeida</h3>
+        </div>
+
+        <div class="footer-dados">
+          <h3 class="titulo-footer">Dados</h3>
+          <ul class="dados">
+            <li>CNPJ: 32.431.661/0001-68</li>
+            <li>Razão Social: Instituto Berna Almeida-IBA</li>
+            <li>Nome Fantasia: IBA</li>
+          </ul>
+        </div>
+
+        <div class="footer-contato">
+          <h3 class="titulo-footer">Contato</h3>
+          <ul class="contato">
+            <li>
+              <a
+                target="_blank"
+                href="https://api.whatsapp.com/send?phone=5561986788678"
+                >+55 61 98678 8678</a
+              >
+            </li>
+            <li>
+              <a target="_blank" href="mailto:"
+                >institutobernalmeida@gmail.com</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-redes">
+          <h3 class="titulo-footer">Redes</h3>
+          <div class="footer-icon">
+            <a
+              target="_blank"
+              href="https://www.instagram.com/institutobernalmeida/"
+            >
+              <img
+                class="img-redes"
+                src="../img/redes/instagram.svg"
+                width="30"
+                heigth="30"
+                alt="Instagram"
+              />
+            </a>
+            <a
+              target="_blank"
+              href="https://www.facebook.com/1sujeitochamadoalzheimer"
+            >
+              <img
+                src="../img/redes/facebook.svg"
+                width="30"
+                heigth="30"
+                alt="Facebook"
+              />
+            </a>
+            <a target="_blank" href="https://www.youtube.com/@iba370.">
+              <img
+                src="../img/redes/youtube.svg"
+                width="30"
+                heigth="30"
+                alt="Youtube"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <p class="footer-copy">©Copyright 2023 - By Voluntários: <a target="_blank" href="https://www.linkedin.com/in/isadoravanderlan/">Isadora Vanderlan / </a> <a target="_blank" href="https://www.linkedin.com/in/eduardo-brito-529b4a27a/">Eduardo Brito / </a> <a target="_blank" href="https://www.linkedin.com/in/maicon-luis-b63670271/">Maicon Luis </a></p> 
+      </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>

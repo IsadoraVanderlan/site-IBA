@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="IBA - Instituto Berna Almeida" />
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
+
+    <!-- STYLE -->
+    <link rel="stylesheet" href="../style.css" />
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair:ital,wght@1,300&family=Pontano+Sans:wght@400;500;600&family=Source+Sans+Pro:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ANIMAÇÃO -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- SCRIPT -->
+    <script>
+      document.documentElement.className += " js";
+    </script>
+
+    <title>IBA - Voluntários</title>
+  </head>
+
+  <body>
+    <!-- MENU -->
+    <header class="header-bg">
+      <div class="header">
+        <div>
+          <a href="../index.html"
+            ><img
+              src="../img/logotipo Berna Almeida Horizontal (1).png"
+              alt="Logo"
+              width="120"
+              height="50"
+            />
+          </a>
+        </div>
+
+        <nav class="nav-list" data-menu="suave" aria-label="primario">
+          <ul id="menu" data-menu="list" class="header-menu">
+            <li class="nav-item">
+              <a href="../index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="./orientacoes.html" class="nav-link">Orientações</a>
+            </li>
+            <li class="nav-item">
+              <a href="./por_berna_almeida.html" class="nav-link"
+                >Por Berna Almeida</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="./voluntarios.html" class="nav-link">Voluntários</a>
+            </li>
+            <li class="nav-item">
+              <a href="./doe.html" class="nav-link">Doe</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="botao contato-botao">
+          <a href="#contato">Contato</a>
+        </button>
+
+        <!-- ICON MENU MOBILE -->
+        <div class="mobile-menu-icon">
+          <button onclick="menuShow()">
+            <img class="icon" src="../img/menu_white_36dp.svg" alt="" />
+          </button>
+        </div>
+
+        <!-- MENU MOBILE -->
+        <div class="mobile-menu">
+          <ul class="mobile-menu-interno">
+            <li class="nav-item">
+              <a href="../index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="./orientacoes.html" class="nav-link">Orientações</a>
+            </li>
+            <li class="nav-item">
+              <a href="./por_berna_almeida.html" class="nav-link"
+                >Por Berna Almeida</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="./voluntarios.html" class="nav-link">Voluntários</a>
+            </li>
+            <li class="nav-item">
+              <a href="./doe.html" class="nav-link">Doe</a>
+            </li>
+            <li class="nav-item"><button class="botao">Contato</button></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- BANNER -->
+    <main class="banner-voluntarios introducao-anima">
+      <div class="introducao container">
+        <div class="orientacao-conteudo">
+          <h1>Voluntários</h1>
+          <p>- conheça quem apoia nossos projetos -</p>
+        </div>
+      </div>
+    </main>
+
+    <!-- CARDS VOLUNTARIOS -->
+    <section class="ajustadora">
+      <section class="boxgrid">
+        <div class="card">
+          <div class="face front">
+            <img class="pessoa" src="../img/voluntario-isadora.png" alt="" />
+            <h2>Isadora Vanderlan</h2>
+            <p>Desenvolvedora Front End</p>
+            <div class="descricao-volun">
+              <div class="email">
+                <img src="../img/mail.png" alt="" />
+                <p>vanderlansantos1991@gmail.com</p>
+              </div>
+              <div class="redes" target="_blank">
+                <a href="https://www.linkedin.com/in/isadoravanderlan/"
+                  ><img src="../img/linkedin.png" alt=""
+                /></a>
+                <a
+                  href="https://isadoravanderlan.github.io/portifolioisadoravanderlan.github.io/"
+                  ><input type="button" value="Portifólio"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="face back">
+            <h2>Formação</h2>
+            <p>
+              Bacharel em Sistema de Informações pela Universidade Nove de
+              Julho, atualmente atua como Desenvolvedora Front End. Principal
+              responsável pelo desenvolvimento dos Sites do Instituto IBA -
+              Instituto Berna almeida.
+            </p>
+            <div class="descricao-volun">
+              <div class="email">
+                <img src="../img/mail.png" alt="" />
+                <p>vanderlansantos1991@gmail.com</p>
+              </div>
+              <div class="redes">
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/isadoravanderlan/"
+                  ><img src="../img/linkedin.png" alt=""
+                /></a>
+                <a
+                  target="_blank"
+                  href="https://isadoravanderlan.github.io/portifolioisadoravanderlan.github.io/"
+                  ><input type="button" value="Portifólio"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="face front">
+            <img class="pessoa" src="../img/voluntario-Eduardo.png" alt="" />
+            <h2>Eduardo Brito</h2>
+            <p>Desenvolvedor Front End</p>
+            <div class="descricao-volun">
+              <div class="email">
+                <img src="../img/mail.png" alt="" />
+                <p>eduardobritodev@gmail.com</p>
+              </div>
+              <div class="redes">
+                <a href="https://www.linkedin.com/in/eduardo-brito-529b4a27a/ "
+                  ><img src="../img/linkedin.png" alt=""
+                /></a>
+                <!-- <a href=""><input type="button" value="Portifólio" /></a> -->
+              </div>
+            </div>
+          </div>
+          <div class="face back">
+            <h2>Formação</h2>
+            <p>
+              Estudante de Desenvolvimento Front End, com foco em full stack developer. Participa no
+              desenvolvimento dos sites do Instituto Berna almeida.
+            </p>
+            <div class="descricao-volun">
+              <div class="email">
+                <img src="../img/mail.png" alt="" />
+                <p>eduardobritodev@gmail.com</p>
+              </div>
+              <div class="redes">
+                <a href="https://www.linkedin.com/in/eduardo-brito-529b4a27a/ "
+                  ><img src="../img/linkedin.png" alt=""
+                /></a>
+                <!-- <a href=""><input type="button" value="Portifólio" /></a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="face front">
+            <img class="pessoa" src="../img/voluntaria-Mike.png" alt="" />
+            <h2>Maicon Luis</h2>
+            <p>Desenvolvedor Front End</p>
+            <div class="descricao-volun">
+              <div class="email">
+                <img src="../img/mail.png" alt="" />
+                <p>maicon_lsantos@hotmail.com</p>
+              </div>
+              <div class="redes">
+                <a href="https://www.linkedin.com/in/maicon-luis-b63670271/"
+                  ><img src="../img/linkedin.png" alt=""
+                /></a>
+                <!-- <a href=""><input type="button" value="Portifólio" /></a> -->
+              </div>
+            </div>
+          </div>
+          <div class="face back">
+            <h2>Formação</h2>
+            <p>
+              Estudante de Desenvolvimento Front End, com foco em full stack developer. Participa no
+              desenvolvimento dos sites do Instituto Berna almeida.
+            </p>
+            <div class="descricao-volun">
+              <div class="email">
+                <img src="../img/mail.png" alt="" />
+                <p>maicon_lsantos@hotmail.com</p>
+              </div>
+              <div class="redes">
+                <a href="https://www.linkedin.com/in/maicon-luis-b63670271/"
+                  ><img src="../img/linkedin.png" alt=""
+                /></a>
+                <!-- <a href=""><input type="button" value="Portifólio" /></a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="face front">
+            <img class="pessoa" src="../img/voluntaria-Rafaelapng.png" alt="" />
+            <h2>Rafaela Pereira</h2>
+            <p>Comunicação Social</p>
+            <div class="descricao-volun">
+              <div class="email">
+                <img src="../img/mail.png" alt="" />
+                <p>rafaelapereira304@gmail.com</p>
+              </div>
+              <div class="redes">
+                <!-- <a href=""><img src="../img/linkedin.png" alt="" /></a> -->
+                <a href="https://rafaelapereira304.wixsite.com/rafaela-pereira-de-c"><input type="button" value="Portifólio" /></a>
+              </div>
+            </div>
+          </div>
+          <div class="face back">
+            <h2>Formação</h2>
+            <p>
+              Ajudo na comunicação de um modo geral, apoiando principalmente áreas relacionadas a publicidade e propaganda. Voluntaria no CqC - Cartas q Curam Portugal
+            </p>
+            <div class="descricao-volun">
+              <div class="email">
+                <img src="../img/mail.png" alt="" />
+                <p>rafaelapereira304@gmail.com</p>
+              </div>
+              <div class="redes">
+                <!-- <a href=""><img src="../img/linkedin.png" alt="" /></a> -->
+                <a href="https://rafaelapereira304.wixsite.com/rafaela-pereira-de-c"><input type="button" value="Portifólio" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="face front">
+            <img class="pessoa" src="../img/voluntaria-Julia.png" alt="" />
+            <h2>Júlia Fernandes</h2>
+            <p>Estudante</p>
+            <div class="descricao-volun">
+              <div class="email">
+                <img src="../img/mail.png" alt="" />
+                <p>jumarchezin@gmail.com</p>
+              </div>
+              <div class="redes">
+                <a href="https://www.linkedin.com/in/j%C3%BAlia-fernandes-25b81922b"><img src="../img/linkedin.png" alt="" /></a>
+                <!-- <a href=""><input type="button" value="Portifólio" /></a> -->
+              </div>
+            </div>
+          </div>
+          <div class="face back">
+            <h2>Formação</h2>
+            <p>
+Estudante, nascida e criada em São Paulo. Ensino médio completo em 2022 e busca vaga para graduação em biologia. No projeto CqC atua como supervisora e escrevedora.
+            </p>
+            <div class="descricao-volun">
+              <div class="email">
+                <img src="../img/mail.png" alt="" />
+                <p>jumarchezin@gmail.com</p>
+              </div>
+              <div class="redes">
+                <a href="https://www.linkedin.com/in/j%C3%BAlia-fernandes-25b81922b"><img src="../img/linkedin.png" alt="" /></a>
+                <a href=""><input type="button" value="Portifólio" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="face front">
+            <img class="pessoa" src="../img/valuntaria-Manuella.png" alt="" />
+            <h2>Manuella Novaes</h2>
+            <p>Analista Financeiro</p>
+            <div class="descricao-volun">
+              <div class="email">
+                <img src="../img/mail.png" alt="" />
+                <p>manu.novaes@gmail.com</p>
+              </div>
+              <div class="redes">
+                <a href="https://www.linkedin.com/in/manuella-novaes-ba5517a2/"><img src="../img/linkedin.png" alt="" /></a>
+                <!-- <a href=""><input type="button" value="Portifólio" /></a> -->
+              </div>
+            </div>
+          </div>
+          <div class="face back">
+            <h2>Formação</h2>
+            <p>
+              Analista financeiro no escritório GW Advocacia, resido em Recife/PE, graduada em Contabilidade e Especialização em Gestão de Negócios. No projeto CqC atuo na coordenação dos supervisores e planilhas.
+            </p>
+            <div class="descricao-volun">
+              <div class="email">
+                <img src="../img/mail.png" alt="" />
+                <p>manu.novaes@gmail.com</p>
+              </div>
+              <div class="redes">
+                <a href="https://www.linkedin.com/in/manuella-novaes-ba5517a2/"><img src="../img/linkedin.png" alt="" /></a>
+                <!-- <a href=""><input type="button" value="Portifólio" /></a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="face front">
+            <img class="pessoa" src="../img/voluntaria-Susana.png" alt="" />
+            <h2>Susana Luciano</h2>
+            <p>Desenvolvedora Web</p>
+            <div class="descricao-volun">
+              <div class="email">
+                <img src="../img/mail.png" alt="" />
+                <p>susaremota@gmail.com</p>
+              </div>
+              <div class="redes">
+                <a href="https://www.linkedin.com/in/susana-luciano-de-oliveira-b7778512a"><img src="../img/linkedin.png" alt="" /></a>
+                <!-- <a href=""><input type="button" value="Portifólio" /></a> -->
+              </div>
+            </div>
+          </div>
+          <div class="face back">
+            <h2>Formação</h2>
+            <p>
+              Sou formada pela Universidade Federal de Santa Catarina, fui Assistente Administrativa durante 10 anos e desde 2004 atuo como Secretaria Executiva, lá se foram 25 anos de muito aprendizado e experiência.
+            </p>
+            <div class="descricao-volun">
+              <div class="email">
+                <img src="../img/mail.png" alt="" />
+                <p>susaremota@gmail.com</p>
+              </div>
+              <div class="redes">
+                <a href="https://www.linkedin.com/in/susana-luciano-de-oliveira-b7778512a"><img src="../img/linkedin.png" alt="" /></a>
+                <!-- <a href=""><input type="button" value="Portifólio" /></a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="face front">
+            <img class="pessoa" src="../img/voluntatia-iris.png" alt="" />
+            <h2>Íris Santos</h2>
+            <p>Secretária</p>
+            <div class="descricao-volun">
+              <div class="email">
+                <img src="../img/mail.png" alt="" />
+                <p>Irisarthur@gmail.com</p>
+              </div>
+              <div class="redes">
+                <!-- <a href=""><img src="../img/linkedin.png" alt="" /></a> -->
+                <!-- <a href=""><input type="button" value="Portifólio" /></a> -->
+              </div>
+            </div>
+          </div>
+          <div class="face back">
+            <h2>Formação</h2>
+            <p>
+              Faço projetos sociais, como o Pão do Amor onde assamos 2000 pães toda semana. Tudo com doações de amigos. Faço bazar p ajudar os projetos. São mais de 150 famílias auxiliadas, Atua no IBA.
+            </p>
+            <div class="descricao-volun">
+              <div class="email">
+                <img src="../img/mail.png" alt="" />
+                <p>Irisarthur@gmail.com</p>
+              </div>
+              <div class="redes">
+                <!-- <a href=""><img src="../img/linkedin.png" alt="" /></a>
+                <a href=""><input type="button" value="Portifólio" /></a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="face front">
+            <img class="pessoa" src="../img/voluntaria-Eyla.png" alt="" />
+            <h2>Keyla Magalhães</h2>
+            <p>Desenvolvedora Web</p>
+            <div class="descricao-volun">
+              <div class="email">
+                <img src="../img/mail.png" alt="" />
+                <p>keyla101187magalhaes@gmail.com</p>
+              </div>
+              <div class="redes">
+                <!-- <a href=""><img src="../img/linkedin.png" alt="" /></a>
+                <a href=""><input type="button" value="Portifólio" /></a> -->
+              </div>
+            </div>
+          </div>
+          <div class="face back">
+            <h2>Formação</h2>
+            <p>
+              Atuante em voluntariado desde 15 anos, inicialmente com alfabetização infantil, inclusão digital a terceira idade, entidades religiosas, organização de eventos à cerimônia de matrimôni. Atua no IBA e CqC Brasil.
+            </p>
+            <div class="descricao-volun">
+              <div class="email">
+                <img src="../img/mail.png" alt="" />
+                <p>keyla101187magalhaes@gmail.com</p>
+              </div>
+              <div class="redes">
+                <!-- <a href=""><img src="../img/linkedin.png" alt="" /></a>
+                <a href=""><input type="button" value="Portifólio" /></a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="conteudo-footer container" id="contato">
+        <div class="footer-titulo">
+          <h3>Instituto Berna Almeida</h3>
+        </div>
+
+        <div class="footer-dados">
+          <h3 class="titulo-footer">Dados</h3>
+          <ul class="dados">
+            <li>CNPJ: 32.431.661/0001-68</li>
+            <li>Razão Social: Instituto Berna Almeida-IBA</li>
+            <li>Nome Fantasia: IBA</li>
+          </ul>
+        </div>
+
+        <div class="footer-contato">
+          <h3 class="titulo-footer">Contato</h3>
+          <ul class="contato">
+            <li>
+              <a
+                target="_blank"
+                href="https://api.whatsapp.com/send?phone=5561986788678"
+                >+55 61 98678 8678</a
+              >
+            </li>
+            <li>
+              <a target="_blank" href="mailto:"
+                >institutobernallmeida@gmail.com</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-redes">
+          <h3 class="titulo-footer">Redes</h3>
+          <div class="footer-icon">
+            <a
+              target="_blank"
+              href="https://www.instagram.com/institutobernalmeida/"
+            >
+              <img
+                class="img-redes"
+                src="../img/redes/instagram.svg"
+                width="30"
+                heigth="30"
+                alt="Instagram"
+              />
+            </a>
+            <a
+              target="_blank"
+              href="https://www.facebook.com/1sujeitochamadoalzheimer"
+            >
+              <img
+                src="../img/redes/facebook.svg"
+                width="30"
+                heigth="30"
+                alt="Facebook"
+              />
+            </a>
+            <a target="_blank" href="https://www.youtube.com/@iba370.">
+              <img
+                src="../img/redes/youtube.svg"
+                width="30"
+                heigth="30"
+                alt="Youtube"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <p class="footer-copy">©Copyright 2023 - By Voluntários</p>
+      </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="../js/script.js"></script>
+    <script src="../js/orientacoes.js"></script>
+  </body>
+</html>

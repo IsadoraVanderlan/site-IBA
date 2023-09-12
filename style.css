@@ -1,0 +1,47 @@
+/* GLOBAL */
+@import "./css/global.css";
+
+/* INDEX */
+@import "./css/index.css";
+
+/* NAV */
+@import "./css/nav.css";
+
+/* MENU MOBILE */
+@import "./css/menu-mobile.css";
+
+/* ORIENTAÇOES */
+@import "./css/orientacoes.css";
+
+/* ORIENTAÇOES> POSTS */
+@import "./css/pagina-post.css";
+
+/* POR BERNA ALMEIDA */
+@import "./css/por_berna_almeida.css";
+
+/* MUSICOTERAPIA */
+@import "./css/musicoterapia.css";
+
+/* LIVROS */
+@import "./css/livros.css";
+
+/* DOE */
+@import "./css/doe.css";
+
+/* VOLUNTARIOS */
+@import "./css/voluntarios.css";
+
+/* SEMENTES SOLIDARIAS */
+@import "./css/sementes-solidarias.css";
+
+/* SCONTE COMIGO */
+@import "./css/conte-comigo.css";
+
+/* PAGINA DOENÇAS DEGENERATIVAS */
+@import "./css/pagina-doencas-degenerativas.css";
+
+/* MANUTENÇÃO */
+@import "./css/pagina.manutencao.css";
+
+/* FOOTER */
+@import "./css/footer.css";

@@ -1,0 +1,25 @@
+.banner-conte-comigo {
+    background-image: url("../img/banner-conte-comigo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 150px;
+    padding-bottom: 200px;
+    margin-bottom: 100px;
+}
+
+.container-conte-comigo {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.texto-conte-comigo h3{
+    color: #BE21A6;
+    margin-bottom: 20px;
+}
+
+
+.texto-conte-comigo p {
+    font-size: 17px;
+    color: rgb(84, 96, 87);
+}

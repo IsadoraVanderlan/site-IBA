@@ -1,0 +1,64 @@
+.mobile-menu-icon {
+    display: none;
+}
+  
+  .mobile-menu {
+    background-color: #ffffffed;
+    position: absolute;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0px 0px 0px 20px;
+    top: 46px;
+    right: 0;
+    z-index: 10;
+    display: none;
+}
+  
+@media (max-width: 1000px) {
+    .nav-item, .contato-botao {
+        display: none;
+    }
+    .nav-item {
+      justify-content: end;
+    }
+    .nav-item a {
+      font-size: 12px;
+      font-weight: 600;
+      font-family: 'Source Sans Pro', sans-serif;
+      color: #B58DA4;
+      padding-bottom: 20px;
+    }
+    .mobile-menu-interno {
+      display: grid;
+    }
+    .login-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: #B58DA4;
+        border: none;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .mobile-menu li {
+      padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+    }
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+    .open {
+        display: block;
+    }
+  }

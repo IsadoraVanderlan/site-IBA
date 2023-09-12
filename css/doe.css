@@ -1,0 +1,85 @@
+/************** DOAÇÃO **************/
+.doacao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.deposito {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.deposito h2, 
+.pix h2{
+   color: #083632;
+   font-size: 35px;
+   font-family: 'Pontano Sans', sans-serif;
+   font-weight: bold;    
+}
+
+.deposito h3{
+    color: #4B4B4B;
+    font-size: 20px;
+    font-family: 'Pontano Sans', sans-serif;;
+}
+
+.deposito p,
+.pix p {
+    color: #4B4B4B;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;;
+}
+
+.pix {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pix img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+/************** DESCRIÇÃO **************/
+.desc {
+    margin-top: 100px;
+    margin-bottom:100px;
+}
+
+
+.desc h4 {
+    font-family:'Pontano Sans', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.desc ul{
+    list-style:circle;
+    margin-left: 20px;
+}
+
+/************** mobile **************/
+@media (max-width: 900px) {
+    .deposito h2,
+    .pix h2{
+        font-size: 25px;   
+     }
+}
+
+@media (max-width: 650px) {
+    .doacao {
+        grid-template-columns: 1fr;
+        padding-top: 50px;
+        gap: 100px;
+    }
+
+    .deposito h2,
+    .pix h2{
+        font-size: 20px;   
+     }
+}

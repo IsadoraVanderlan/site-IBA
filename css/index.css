@@ -1,0 +1,372 @@
+/************** introducao-bg **************/
+.introducao-bg {
+    background: url("../img/pexels-mikhail-nilov-8307646.jpg");
+    background-position: center;
+    margin-bottom: 110px;
+    padding-top: 150px;
+    padding-bottom: 120px;
+}
+
+.introducao {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+}
+
+.introducao img {
+    width: 100%;
+    height: 100%;
+}
+
+.introducao-conteudo p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+} 
+
+/************** missao **************/
+.missao {
+    margin-bottom: 150px;
+}
+
+.missao h2 {
+    margin-bottom: 10px;
+}
+
+.missao p {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #6A6161;
+}
+
+.span-texto-inicial p {
+    font-family: 'Playfair', serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 50px;
+    color: #9e6284;
+}
+
+.inicial-frase span {
+    font-size: 40px;
+}
+
+/************** introdução2 **************/
+.introducao2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 150px;
+    gap: 100px;
+}
+
+.texto-introducao-pg p {
+    font-family: 'roboto' serif;
+    color: #6A6161;
+}
+
+.texto-doenças {
+    margin-bottom: 50px;
+}
+
+.pg-img img {
+    border-radius: 20px;
+}
+
+/************** posts doenças **************/
+.lista-doenças {
+    display: grid;
+}
+
+.espaco-top img {
+    margin-top: 70px;
+}
+
+.li-doenças img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-bottom: 5px;
+    border: 3px solid #005B56;
+    border-radius: 80px;
+}
+
+.lista-doenças li {
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+}
+
+.lista-doenças h2 {
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+
+.lista-doenças p {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #6A6161;
+}
+
+.lista-doenças ul {
+    display: flex;
+    gap: 80px;
+    padding: 0 20px 20px 20px;
+    margin-bottom: 40px;
+    max-width: 1400px;
+}
+
+.doencas-chamada p{
+    color: #6A6161;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 150px;
+}
+
+.doencas-chamada p:hover {
+   color: #86bebc;
+   -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+   transition: 0.3s ease-in-out;
+}
+
+/************** banner **************/
+.sessao-banner {
+    background: #f1edf17c;
+    box-shadow: inset 0 30px #ffffff;
+}
+
+.banner {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 50px;
+    text-align: center;
+    color: #504949;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 150px;
+}
+
+.banner img {
+    margin-bottom: 20px;
+}
+
+.texto-introducao-banner span {
+    font-size: 12px;
+    color: #bba2b2;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.texto-introducao-banner h3 {
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.texto-introducao-banner p {
+    padding-bottom: 20px;
+}
+
+/************** projetos **************/
+.sessao-projetos {
+    display: grid;
+}
+
+.p-projetos {
+    text-align: center;
+}
+
+.lista-projetos {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 150px;
+    gap: 50px;
+    padding: 50px;
+}
+
+.titulo-projetos {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.sessao-projetos h2 {
+    margin: 0px;
+    text-align: center;
+}
+
+.titulo-projetos h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.lista-projetos img {
+    max-width: 70px;
+    max-height: 70px;
+    margin-bottom: 5px;
+    border-radius: 80px;
+}
+
+.conteudo-projetos {
+    display: grid;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.conteudo-projetos p {
+    margin-bottom: 20px;
+}
+
+.conteudo-projetos a {
+    color: #005B56;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.conteudo-projetos a:hover {
+   color: #86bebc;
+   -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+   transition: 0.3s;
+   padding-left: 10px;
+}
+
+/* ANIMAÇÃO */
+.introducao-bg, .animacao-missao, .inscricao-lista {
+    visibility: hidden;
+}
+
+/************** MOBILE **************/
+@media (max-width: 1000px) {
+    h2 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    
+    .introducao-bg {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        margin-bottom: 50px;
+    }
+
+    .introducao-conteudo h1 {
+        font-size: 60px;
+    }
+
+    /* missao */
+    .missao {
+        margin-bottom: 100px;
+    }
+    .missao-conteudo {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .inicial-frase p {
+        font-size: 15px;
+    }
+    
+    /* introducao2 */
+    .introducao2 {
+        display: flex;
+        grid-template-columns: 1fr 1fr;
+        flex-wrap: wrap;
+        gap: 50px;
+        margin-bottom: 50px;
+    }
+
+    .pg-img img {
+        display: none;
+    }
+
+    /* posts doenças */
+    .lista-doenças {
+        display: grid; 
+        text-align: center;
+    }
+
+    li .a-lista {
+        margin-bottom: 20px;
+    }
+
+    .conteudo-doencas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .conteudo-doencas li {
+        max-width: 200px;
+        margin-bottom: 50px;
+    }
+
+    .conteudo-doencas p {
+        max-width: 200px;
+        margin-bottom: 1px;
+    }
+
+    .doencas-chamada p{
+        margin-bottom: 100px;
+    }
+
+    /* banner */
+    .sessao-banner {
+        box-shadow: none;
+    }
+
+    .banner {
+        grid-template-columns: 1fr;
+        padding: 40px;
+        gap: 0px;
+        margin-bottom: 100px;
+    }
+
+    /* projetos */
+    .conteudo-projeto {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .p-projetos {
+        margin-bottom: 50px;
+    }
+
+    .p-projetos p {
+        font-size: 13px;
+        color: #504949;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .introducao-conteudo h1 {
+        font-size: 40px;
+    }
+
+    .lista-doenças ul {
+        gap: 10px;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .espaco-top img {
+        margin-top: 0px;
+    }
+
+    .conteudo-projetos {
+        padding: 20px;
+    }
+
+    .lista-projetos {
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+}

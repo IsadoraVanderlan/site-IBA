@@ -1,0 +1,146 @@
+.livros {
+    background: url("../img/banner-livros.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 150px;
+    padding-bottom: 70px;
+    margin-bottom: 100px;
+}
+
+.livros h1 {
+    color: rgb(53, 51, 51);
+}
+
+.container-livros {
+    display: flex;
+    margin-bottom: 50px;
+    border: solid 1px #e4dede;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.15) 3px 2px 3px;
+}
+
+.container-img-livros {
+    height: 300px;
+    width: 200px;
+}
+
+.descricao-livros {
+    margin-left: 50px;
+}
+
+.descricao-livros h4 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: rgb(77, 75, 75);
+}
+
+.descricao-livros p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.posts-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.posts-img img{
+   border-radius: 8px;
+}
+
+.posts-img h2{
+   margin-top: 20px;
+   font-size: 20px;
+   font-weight:bold;
+   text-align: center;
+}
+
+.div-img:hover {
+  -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+   transition: 0.3s;
+}
+
+.div-img {
+  max-width: 100%;
+  margin: 0 auto;
+  height: 150px;
+  width: 300px;
+}
+
+.div-img img {
+  width: 100%;
+}
+
+/* Livros */
+.sessao-livros {
+    display: grid;
+}
+
+.p-livros {
+    text-align: center;
+}
+
+.lista-livros {
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.titulo-livros {
+    gap: 10px;
+}
+
+.sessao-livros h2 {
+    margin: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #005B56;
+}
+
+.titulo-livros h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.lista-livros img {
+    max-width: 50px;
+    max-height: 70px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.conteudo-livros {
+    display: grid;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.conteudo-livros p {
+    margin-bottom: 20px;
+}
+
+.conteudo-livros a {
+    color: #005B56;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.conteudo-livros a:hover {
+   color: #86bebc;
+   -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+   transition: 0.3s;
+   padding-left: 10px;
+}
+
+/* ANIMAÇÃO */
+.introducao-bg, .animacao-missao, .inscricao-lista {
+    visibility: hidden;
+}

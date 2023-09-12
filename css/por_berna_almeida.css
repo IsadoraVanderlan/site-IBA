@@ -1,0 +1,25 @@
+.banner-por-berna {
+    background-image: url("../img/banner-por-berna.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 150px;
+    padding-bottom: 80px;
+}
+
+.banner-por-berna h1 {
+    padding-left: 40px;
+    color: #005B56;
+}
+
+.banner-por-berna p {
+    padding-left: 45px;
+}
+
+.posts-por-berna {
+    display: flex;
+}
+
+/* .veja-mais-post {
+    align-items: center;
+} */

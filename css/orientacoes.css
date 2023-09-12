@@ -1,0 +1,221 @@
+/************** BANNER **************/
+.banner-orientacoes {
+    background-image: url("../img/banner-orientacoes.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 130px;
+    padding-bottom: 80px;
+}
+
+.banner-orientacoes h1 {
+    color: #005B56;
+}
+
+.orientacao-conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/************** MENU C/ SUBMENU **************/
+.posts-doencas {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.menu-lateral {
+    padding-top: 100px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: 50px;
+    border-radius: 0 0 10px 0;
+    background: #f2f2f2;
+}
+
+.menu-list {
+  list-style: none;
+}
+
+.menu-list a:hover {
+  color: #b883bc;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.menu-item {
+  position: relative;
+}
+
+.menu-link {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.arrow {
+  width: 5px;
+  height: 5px;
+  border-left: 4px solid #ddd5d5;
+  border-bottom: 4px solid #e9e3e3;
+  margin-left: 10px;
+  transform: rotate(-45deg);
+  transition: transform 0.3s ease;
+}
+
+.menu-item.open .arrow {
+  transform: rotate(-135deg);
+}
+
+.submenu {
+  opacity: 0;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background: #f2f2f2;
+  border-radius: 5px;
+  border: solid 1px #0000001e;
+  padding: 15px;
+  transition: opacity 0.3s ease;
+  width: 300px;
+  z-index: 999;
+}
+
+.menu-item.open .submenu {
+  opacity: 1;
+  display: block;
+}
+
+.submenu li a {
+  display: block;
+  padding: 5px;
+  margin-bottom: 10px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.submenu a:hover {
+    color: #b883bc;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.3s;
+    padding-left: 20px;
+}
+
+/************** POSTS DOENCAS **************/
+.posts-doencas{
+    display: flex;
+    margin-right: 50px;
+}
+
+.posts-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.posts-img img{
+   border-radius: 8px;
+}
+
+.posts-img h2{
+   margin-top: 20px;
+   font-size: 20px;
+   font-weight:bold;
+   text-align: center;
+}
+
+.div-img:hover {
+  -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+   transition: 0.3s;
+}
+
+.div-img {
+  max-width: 100%;
+  margin: 0 auto;
+  height: 150px;
+  width: 300px;
+}
+
+.div-img img {
+  width: 100%;
+}
+
+.veja-mais-post {
+  grid-column: 2/3;
+  text-align: center;
+}
+
+.veja-mais-post p{
+  color: #6A6161;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.veja-mais-post p:hover {
+ color: #86bebc;
+ -webkit-transform: scale(1.1);
+ transform: scale(1.1);
+ transition: 0.3s ease-in-out;
+}
+
+/************** MOBILE **************/
+@media (max-width: 1300px) {
+  .banner-orientacoes {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .banner-orientacoes h1 {
+    font-size: 60px;
+  }
+  .posts-img {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .div-img {
+    height: 100px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .posts-img {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 775px) {
+  .posts-img {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .div-img {
+    height: 150px;
+    width: 250px;
+  }
+}
+
+@media (max-width: 600px) {
+  .menu-lateral {
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 10px;
+    margin-right: 5px;
+    
+  }
+  .posts-doencas {
+    margin-right: 5px;
+  }
+  .div-img {
+    height: 80px;
+    width: 150px;
+    padding: auto;
+  }
+  .posts-img {
+    margin-top: 40px;
+  }
+}
