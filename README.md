@@ -5,7 +5,7 @@ Este site é do IBA - Instituto Berna Almeida.
 
 <br/>
 
-![Presentation](https://github.com/IsadoraVanderlan/site-IBA/blob/main/img/apresenta%C3%A7%C3%A3o-iba.png)
+![Presentation](https://github.com/IsadoraVanderlan/site-IBA/blob/main/img/apresenta%C3%A7%C3%A3o%20iba.png)
 <br/><br/>
 
 # Link Para Visualização do Site:
