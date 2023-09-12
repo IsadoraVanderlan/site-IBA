@@ -4,7 +4,7 @@ Este site foi desenvolvido por mim juntamento com Eduardo e Maikon.
 Este site é do IBA - Instituto Berna Almeida.
 
 <br/>
-![Presentation]()
+![Presentation](https://github.com/IsadoraVanderlan/site-IBA/blob/main/img/apresenta%C3%A7%C3%A3o-iba.png)
 <br/><br/>
 
 # Link Para Visualização do Site:
